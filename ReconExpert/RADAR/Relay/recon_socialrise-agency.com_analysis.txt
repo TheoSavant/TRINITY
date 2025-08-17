@@ -1,0 +1,94 @@
+#1 [Critical] "style_uri": "https://elementor.com/hello-theme/?utm_source=wp-themes&utm_campaign=theme-uri&utm_medium=wp-dash",
+   - Why dangerous: A known vulnerability exists that can be exploited remotely.
+   - What’s at risk: Server, website, or database; sensitive business data.
+   - Potential exploit: Attackers can gain unauthorized access, escalate privileges, or execute code.
+
+#2 [Critical] "description": "hello elementor is a lightweight and minimalist wordpress theme that was built specifically to work seamlessly with the elementor site builder plugin. the theme is free, open-source, and designed for users who want a flexible, easy-to-use, and customizable website. the theme, which is optimized for performance, provides a solid foundation for users to build their own unique designs using the elementor drag-and-drop site builder. its simplicity and flexibility make it a great choice for both beginners and experienced web creators.",
+   - Why dangerous: A known vulnerability exists that can be exploited remotely.
+   - What’s at risk: Server, website, or database; sensitive business data.
+   - Potential exploit: Attackers can gain unauthorized access, escalate privileges, or execute code.
+
+#3 [Critical] "author_uri": "https://elementor.com/?utm_source=wp-themes&utm_campaign=author-uri&utm_medium=wp-dash",
+   - Why dangerous: A known vulnerability exists that can be exploited remotely.
+   - What’s at risk: Server, website, or database; sensitive business data.
+   - Potential exploit: Attackers can gain unauthorized access, escalate privileges, or execute code.
+
+#4 [Critical] in php from 8.1.* before 8.1.32, from 8.2.* before 8.2.28, from 8.3.* before 8.3.19, from 8.4.* before 8.4.5, when requesting a http resource using the dom or simplexml extensions, the wrong content-type header is used to determine the charset when the requested resource performs a redirect. this may cause the resulting document to be parsed incorrectly or bypass validations.
+   - Why dangerous: A known vulnerability exists that can be exploited remotely.
+   - What’s at risk: Server, website, or database; sensitive business data.
+   - Potential exploit: Attackers can gain unauthorized access, escalate privileges, or execute code.
+
+#5 [High] 3306/tcp open  mysql    mariadb 5.5.5-10.11.10
+   - Why dangerous: Exposed services or unpatched software may allow compromise.
+   - What’s at risk: Databases, user credentials, website content.
+   - Potential exploit: Brute force, data leakage, or exploitation of misconfigurations.
+
+#6 [High] | mysql-info:
+   - Why dangerous: Exposed services or unpatched software may allow compromise.
+   - What’s at risk: Databases, user credentials, website content.
+   - Potential exploit: Brute force, data leakage, or exploitation of misconfigurations.
+
+#7 [High] |_  auth plugin name: mysql_native_password
+   - Why dangerous: Exposed services or unpatched software may allow compromise.
+   - What’s at risk: Databases, user credentials, website content.
+   - Potential exploit: Brute force, data leakage, or exploitation of misconfigurations.
+
+#8 [High] "to_s": "xml-rpc seems to be enabled: https://socialrise-agency.com/xmlrpc.php",
+   - Why dangerous: Exposed services or unpatched software may allow compromise.
+   - What’s at risk: Databases, user credentials, website content.
+   - Potential exploit: Brute force, data leakage, or exploitation of misconfigurations.
+
+#9 [High] "http://codex.wordpress.org/xml-rpc_pingback_api"
+   - Why dangerous: Exposed services or unpatched software may allow compromise.
+   - What’s at risk: Databases, user credentials, website content.
+   - Potential exploit: Brute force, data leakage, or exploitation of misconfigurations.
+
+#10 [High] mysql_install_db in mariadb 10.4.7 through 10.4.11 allows privilege escalation from the mysql user account to root because chown and chmod are performed unsafely, as demonstrated by a symlink attack on a chmod 04755 of auth_pam_tool_dir/auth_pam_tool. note: this does not affect the oracle mysql product, which implements mysql_install_db differently.
+   - Why dangerous: Exposed services or unpatched software may allow compromise.
+   - What’s at risk: Databases, user credentials, website content.
+   - Potential exploit: Brute force, data leakage, or exploitation of misconfigurations.
+
+#11 [High] a unix symbolic link (symlink) following vulnerability in the mysql-systemd-helper of the mariadb packaging of suse linux enterprise server 12, suse linux enterprise server 15 allows local attackers to change the permissions of arbitrary files to 0640. this issue affects: suse linux enterprise server 12 mariadb versions prior to 10.2.31-3.25.1. suse linux enterprise server 15 mariadb versions prior to 10.2.31-3.26.1.
+   - Why dangerous: Exposed services or unpatched software may allow compromise.
+   - What’s at risk: Databases, user credentials, website content.
+   - Potential exploit: Brute force, data leakage, or exploitation of misconfigurations.
+
+#12 [Medium] + /: the anti-clickjacking x-frame-options header is not present. see: https://developer.mozilla.org/en-us/docs/web/http/headers/x-frame-options
+   - Why dangerous: Security misconfigurations or missing headers may allow attacks.
+   - What’s at risk: Users, web application behavior.
+   - Potential exploit: Clickjacking, information disclosure, minor privilege misuse.
+
+#13 [Low] | http-robots.txt: 1 disallowed entry
+   - Why dangerous: Information disclosure or minor misconfigurations.
+   - What’s at risk: Low-risk data, server banners, site structure.
+   - Potential exploit: Reconnaissance, enumeration, minimal impact attacks.
+
+#14 [Low] + /robots.txt: contains 2 entries which should be manually viewed. see: https://developer.mozilla.org/en-us/docs/glossary/robots.txt
+   - Why dangerous: Information disclosure or minor misconfigurations.
+   - What’s at risk: Low-risk data, server banners, site structure.
+   - Potential exploit: Reconnaissance, enumeration, minimal impact attacks.
+
+#15 [Low] robots.txt
+   - Why dangerous: Information disclosure or minor misconfigurations.
+   - What’s at risk: Low-risk data, server banners, site structure.
+   - Potential exploit: Reconnaissance, enumeration, minimal impact attacks.
+
+#16 [Low] "url": "https://socialrise-agency.com/robots.txt",
+   - Why dangerous: Information disclosure or minor misconfigurations.
+   - What’s at risk: Low-risk data, server banners, site structure.
+   - Potential exploit: Reconnaissance, enumeration, minimal impact attacks.
+
+#17 [Low] "to_s": "robots.txt found: https://socialrise-agency.com/robots.txt",
+   - Why dangerous: Information disclosure or minor misconfigurations.
+   - What’s at risk: Low-risk data, server banners, site structure.
+   - Potential exploit: Reconnaissance, enumeration, minimal impact attacks.
+
+==================================================
+Analysis Summary
+==================================================
+Critical: 4
+High: 7
+Medium: 1
+Low: 5
+Total Findings: 17
+==================================================

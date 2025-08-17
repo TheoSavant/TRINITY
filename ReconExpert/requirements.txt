@@ -1,0 +1,7 @@
+requests
+colorama
+pyfiglet
+nmap
+gobuster
+nikto
+wpscan
